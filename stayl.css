@@ -158,8 +158,11 @@ section{
 .icon a:hover{
     color: #0B192C;
 }
+.imgclass{
+    margin-left: 140px;
+}
 .imgclass img {
-    width: 380px;
+    width: 320px;
     border-radius: 50%;
     margin-left: 100px;
     box-shadow: 0px 4px 10px rgba(5, 5, 5, 5);
@@ -168,7 +171,7 @@ section{
 .imgclass img:hover{
     cursor: pointer;
     filter: drop-shadow(1px 10px 15px rgb(199, 113, 0));
-    width: 400px;
+    width: 370px;
 }
 .about{
     margin-top: 50px;
@@ -178,16 +181,20 @@ section{
 }
 .about h3{
     color:rgb(22 242 179);
-    margin-left: 270px;
+    margin-left: 160px;
     margin-bottom: 30px;
 }
 .about img{
     width: 270px;
+    /* border-radius: 50%; */
+    margin-left: 100px;
+    box-shadow: 0px 4px 10px rgba(5, 5, 5, 5);
+    transition: 0.5s; 
 }
 .about-child{
     display: grid;
-    grid-template-columns: 600px auto;
-    justify-content: space-around;
+    grid-template-columns: 500px auto;
+    /* justify-content: space-evenly; */
     align-items: center;
 }
 .about-child p{
