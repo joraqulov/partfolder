@@ -215,5 +215,21 @@ section{
 .project-div{
     width: 100%;
     height: 80vh;
-    background-color: #FFE700;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.project-div-chaylid{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    /* background-color: #FFE700; */
+    align-items: center;
+    justify-content: center;
+}
+.project-div-chaylid h4{
+    font-size: 36px;
+}
+.project-div-chaylid p{
+    font-size: 18px;
 }
